@@ -145,7 +145,6 @@
             }
         }
     },
-    "defaultProject": "sindhura-portfolio",
     "schematics": {
         "@schematics/angular:component": {
             "style": "scss"
