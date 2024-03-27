@@ -1,0 +1,163 @@
+{
+
+    "Header.Item1" : "About Me",
+    "Header.Item2" : "Education",
+    "Header.Item3" : "Experience",
+    "Header.Item4" : "Projects",
+    "Header.Item5" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "Sindhura Surendra Kotian.pdf",
+
+    "Banner.Pretitle": "Hello! I am",
+    "Banner.Description": "Over the last <span class='underline'>3 years</span>, I've focused on developing systems, interfaces, bots, and technical solutions with a single purpose in mind: to improve the web experience for all users. My devotion extends to creating, improving, and maintaining code that is not just clean and reusable, but also scalable. While my core expertise is in <span class='underline'>Angular</span>, I also have experience with <span class='underline'>ReactJS</span>, which ensures that my work meets the highest standards of good practice and development processes. This commitment to quality and innovation is key to my professional ethics, motivating me to create significant and effective solutions in the technology industry.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About Me",
+    "AboutMe.Paragraphs": [
+        "With three years of experience in the field of software development, I am committed to daily growth and excellence. My expertise encompasses writing unit tests, executing continuous integration processes, and fulfilling backend development roles utilizing Java and PostgreSQL. I have also demonstrated leadership by guiding teams with empathy, motivating colleagues, and collaboratively setting plans and objectives.",
+        "My skill set extends to enhancing system functionalities, optimizing websites, standardizing patterns, and proposing and implementing valuable ideas to projects. I have honed my abilities across a variety of technologies, ensuring a versatile and comprehensive approach to tackling software development challenges."
+    ],
+
+    "Education.Title": "Education",
+    "Education.Projects": [{
+            "University": "SAN DIEGO STATE UNIVERSITY",
+            "Major":"Master's in Computer Science",
+            "Date": "Aug 2022 - May 2024",
+            "Description": ["Advance Object Oriented Design Program(CS635) | Algorithm Analysis Design(CS660) | Modern topics in Web and Mobile Applications(CS648) | Principles and Techniques of Data Science(CS577) | Machine Learning(CS549) | Database Theory and Implementation(CS514) | Computer Networks and Distributed Systems(CS576)| Scitific Database Techniques(CS503) | Theory of Parallel Algorithm(CS662) | Research (BDA797) | Special Study(CS789) | Android Mobile Aplication Development(CS646)"                                
+            ]
+        },
+        {
+            "University": "SAMBHRAM INSISTUTE OF TECHNOLOGY",
+            "Major":"Bachelor's in Computer Science",
+            "Date": "Aug 2015 - Jun 2019",
+            "Description": ["Data Structure & Application | Software Engineering | Design and Analysis of Algorithm | Computer Networks | Object Oriented Programming | Advanced JAVA and J2EE | Database Management Systems | .Net Framework and Application Development| Operating System and Research | Python Application Programming | Machine LAdvanced Computer Architecture| Internet of Things | Big Data Analytics "
+            ]
+        }
+        
+    ],
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "SDSU",
+            "Tab1":"San Diego State University",
+            "Title": "Research Assistant",
+            "Date": "May 2023 - Present",
+            "Description": ["As a dedicated research assistant, I actively contributed to various research projects by conducting literature reviews, gathering and analyzing data, and assisting in the preparation of research reports.",
+                      "I actively engaged in academic discussions, presenting research findings at conferences, and contributing to the drafting of manuscripts for publication, showcasing my commitment to advancing knowledge in the field",
+                      "Demonstrated proficiency in utilizing Python and cutting-edge NLP techniques to navigate and analyze scientific papers, ensuring the successful integration of relevant data into the QA system."
+        ]
+        },
+        {
+            "Tab": "Freelancer",
+            "Tab1": "Freelancer",
+            "Title": "Independent",
+            "Date": "May 2016 - Present",
+            "Description": [
+              "Implementing continuous improvements, working on frontend and backend.",
+              "Creating platforms with Angular, ReactJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
+              "Automation of processes with data structures.",
+              "Design layout with SASS, Bootstrap, Materialize etc."
+            ]
+        },
+        {
+            "Tab": "Intern",
+            "Tab1": "Gravity AI",
+            "Title": "Data Science Intern",
+            "Date": "May 2023 - August 2023",
+            "Description": [
+              "Leading a team of 4 people in the development of a gravityAI platform made in stable Diffusion model, DALLE.",
+              "Proficient in rapid development and deployment of Al models using frameworks like TensorFlow, PyTorch, and Python.",
+              "Customizing Chat GPT, a stable and efficient conversational Al system powered by the OpenAl API." 
+            ]
+        },
+        {
+            "Tab": "Full-Time",
+            "Tab1": "Atos Syntel",
+            "Title": "Fullstack developer",
+            "Date": "December 2019 - August 2022",
+            "Description": [
+              "I spearheaded Fullstack development projects at Atos Syntel, leveraging the versatility of Angular for creating engaging frontends and harnessing the power of Java on the backend to architect resilient and scalable solutions.",
+              "Played a key role in optimizing application performance by implementing efficient algorithms and data structures in Java, contributing to faster response times and enhanced user experiences.",
+              "Implementation of continuous integration and daily backups.",
+              "Led Agile development teams, facilitating sprint planning, conducting code reviews, and mentoring junior developers.",
+              "Utilized problem-solving skills to troubleshoot and debug issues across the entire technology stack."
+            ]
+        },
+        {
+            "Tab": "Internship",
+            "Tab1": "Microfocus",
+            "Title": "Web Developer",
+            "Date": "June 2018 - December 2018",
+            "Description": [
+              "Interned at Microfocus Technologies, mastering Elasticsearch, Logstab, Grok, and Java in a dynamic tech environment.",
+              "Managed source code efficiently using Git, Jira, and Confluence for streamlined and organized development workflow.",
+              "Designed and implemented user-friendly interfaces, focusing on creating intuitive and responsive web applications."
+            ]
+        } 
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "IOT-Based Industrial Pollution Monitoring",
+            "Description": "Crafted an IoT-based pollution monitor using Arduino and ESP32, featuring sensor-driven real-time tracking of temperature, humidity, and gases, with a focus on accuracy and reliability",
+            "imgs": [
+                "assets/images/iotproject/iot1.png",
+                "assets/images/iotproject/iot2.png",
+                "assets/images/iotproject/iot3.png",
+                "assets/images/iotproject/iot4.png",
+                "assets/images/iotproject/iot5.png"
+            ],
+            "Technologies": ["ASP .NET", "Python", "SQL Server"]
+        },
+        {
+            "Title": "Hands game",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/hands-game.png"],
+            "ghLink": "https://github.com/SindhuraKotian/hands-game-master",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Startup Success Prediction",
+            "Description": "This project aimed to identify key factors contributing to startup success and predict outcomes using machine learning, utilizing a dataset from Crunchbase containing information on startup investments.",
+            "ghLink": "https://github.com/SindhuraKotian/Startup-Success-Prediction",
+            "Technologies": ["Python", "Machine Learning", "Model"]
+        },
+        {
+            "Title": "Instagram",
+            "Description": "This project aims to React-based Instagram project designed to showcase sustainable fashion, leveraging interactive and dynamic content to engage our audience. Our goal is to inspire change, utilizing React's powerful UI capabilities to create a seamless and visually appealing user experience.",
+            "ghLink": "https://github.com/SindhuraKotian/Instagram",
+            "Technologies": ["Javascript", "HTML", "CSS"]
+        },
+        {
+            "Title": "Flight Management System",
+            "Description": "Flight management system that combines an Angular-powered responsive and intuitive user interface with a robust .NET for efficient data processing and management. This project aims to streamline flight operations, and provide airlines with real-time data analytics and management tools.",
+            "ghLink": "https://github.com/SindhuraKotian/Flight-Management-System",
+            "Technologies": ["Angular","Javascript", "HTML", "CSS", "ASP .NET"]
+        },
+        {
+            "Title": "Human Resource Management System",
+            "Description": " Create a comprehensive software that efficiently manages employee data and organizational structures, ensuring optimal use of resources, high accuracy, and reliability in data handling.",
+            "ghLink": "https://github.com/SindhuraKotian/Human-Resource-Management-System",
+            "Technologies": ["Java", "MySQL"]
+        },
+        {
+            "Title": "Comment Analysis",
+            "Description": "The Comment Analysis project is designed to automatically process, analyze user comments using NLP techniques, aiming to identify sentiments, categorize feedback. This system leverages advanced algorithms to provide insights into customer opinions, enabling businesses to enhance their services, and user engagement strategies effectively.",
+            "ghLink": "https://github.com/SindhuraKotian/Comment-Analysis",
+            "Technologies": ["Python", "Machine Learning", "NLP"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+    "Contact.Btn": "Say Hello"
+
+
+}

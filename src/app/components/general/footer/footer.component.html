@@ -1,0 +1,36 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/SindhuraKotian" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/sindhura-surendra-kotian-80969916a" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_codepen", "footer", "github")' href="https://codepen.io/Sindhura-Surendra-Kotian" target='_blank'>
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_instagram", "footer", "github")' href="https://www.instagram.com/kotiansindhu_21/" target='_blank'>
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:sindhurasurendrakotian@gmail.com" target='_blank'>sindhurasurendrakotian@gmail.com </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center" >
+        
+            <div>Built with Angular by Sindhura Surendra Kotian</div>
+       
+    </div>
+
+</footer>
