@@ -85,18 +85,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "sindhura-portfolio:build"
+                      "buildTarget": "sindhura-portfolio:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "sindhura-portfolio:build:production"
+                          "buildTarget": "sindhura-portfolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "sindhura-portfolio:build"
+                      "buildTarget": "sindhura-portfolio:build"
                     }
                 },
                 "test": {

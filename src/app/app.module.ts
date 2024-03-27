@@ -13,6 +13,8 @@ import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -28,9 +30,9 @@ export function HttpLoaderFactory(http: HttpClient){
 
     HomeModule,
     GeneralModule,
-
-    AnimateOnScrollModule.forRoot(),
     BrowserModule,
+    NgxPageScrollCoreModule.forRoot({ }),
+    NgxPageScrollModule,
     AppRoutingModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
